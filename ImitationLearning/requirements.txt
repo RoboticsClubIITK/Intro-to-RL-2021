@@ -1,0 +1,6 @@
+gym
+pyglet
+numpy 
+matplotlib
+pickle
+gzip
