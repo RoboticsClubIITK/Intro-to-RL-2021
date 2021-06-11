@@ -13,8 +13,11 @@ Specific instructions may be found in the comments in each script.
     ```bash
     pip3 install -r requirements.txt
     ```
-2. Installing resources for Box2D (after installing gym in the previous step)
-    ```
+2. Installing resources for the environment. 
+    ```bash
+    git clone https://github.com/openai/gym.git
+    cd gym
+    pip install -e .
     pip3 install -e '.[box2d]'
     ```
 
